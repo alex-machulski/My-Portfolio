@@ -1,0 +1,22 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #f5ced5;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto auto;
+}
+
+.greeting {
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 400px;
+    background: url("https://cs.pikabu.ru/images/big_size_comm/2013-12_1/13862236757361.jpg") no-repeat center;
+}
+
