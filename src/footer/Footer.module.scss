@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables";
+
+.footer {
+  min-height: 200px;
+  padding-top: 30px;
+  background-color: $bgColor;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  .links {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .linkElement {
+      width: 60px;
+      height: 60px;
+      background-color: $bgColor;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+  }
+
+  h4 {
+    color: $textColor;
+  }
+}
+

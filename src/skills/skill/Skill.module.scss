@@ -1,0 +1,36 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.skill {
+  width: 250px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  color: $textColor;
+
+  .icon {
+    height: 65px;
+    width: 65px;
+    background-color: $bgSecondColor;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .skillDescription {
+    h3 {
+      @include text($titleFamilyJosefin, 20px, 1.2);
+    }
+    span {
+      @include text($descriptionFontFamily, 14px, 1.8);
+    }
+  }
+}
+
+
